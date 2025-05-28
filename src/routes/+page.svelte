@@ -15,7 +15,7 @@
 <h1>svelte-scan-qrcode Demo</h1>
 <a
 	class="github-link"
-	href="https://github.com/kofkuiper/svelte-scan-qrcode"
+	href="https://github.com/kofJiningLiu/svelte-scan-qrcode"
 	target="_blank"
 	rel="external"><u>View documentation on Github</u></a
 >
