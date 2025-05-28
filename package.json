@@ -1,5 +1,5 @@
 {
-  "name": "@jining/svelte-scan-qrcode",
+  "name": "@itsjining/svelte-scan-qrcode",
   "description": "Scan QR Code on browser by open camera or upload QR Code image. Support open cameras on Android and iOS browsers.",
   "version": "0.1.0",
   "keywords": [
@@ -11,7 +11,7 @@
   ],
   "author": {
     "name": "Jining Liu",
-    "email": "hello@jining.dev",
+    "email": "hello@itsjining.dev",
     "url": "https://jining.dev"
   },
   "main": "index.ts",

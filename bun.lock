@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "@jining/svelte-scan-qrcode",
+      "name": "@itsjining/svelte-scan-qrcode",
       "dependencies": {
         "jsqr": "^1.4.0",
       },

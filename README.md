@@ -6,14 +6,14 @@
 
 #### How to use
 
-- Install [@jining/svelte-scan-qrcode](https://www.npmjs.com/package/@jining/svelte-scan-qrcode)
+- Install [@itsjining/svelte-scan-qrcode](https://www.npmjs.com/package/@itsjining/svelte-scan-qrcode)
   ```shell
-  npm install --save @jining/svelte-scan-qrcode
+  npm install --save @itsjining/svelte-scan-qrcode
   ```
   ##### Simple with `bind:scanResult` to get scan result
   ```svelte
     <script lang="ts">
-        import { ScanQRCode } from "@jining/svelte-scan-qrcode";
+        import { ScanQRCode } from "@itsjining/svelte-scan-qrcode";
         let result = "";
     </script>
 
@@ -24,7 +24,7 @@
   ```svelte
     <script lang="ts">
         import { goto } from "$app/navigation";
-        import { ScanQRCode } from "@jining/svelte-scan-qrcode";
+        import { ScanQRCode } from "@itsjining/svelte-scan-qrcode";
         let result = "";
 
         function _onPermissionError() {
@@ -55,11 +55,11 @@
     - Use `bind:scanResult` to get scan result.
   - **enableQRCodeReaderButton**
     - Type `boolean`.
-    - Set to true for enable upload QR Code image button. After user uploaded image `@jining/svelte-scan-qrcode` package will read QR Code from image.
+    - Set to true for enable upload QR Code image button. After user uploaded image `@itsjining/svelte-scan-qrcode` package will read QR Code from image.
   - **options**
     - Types ``` {
             onPermissionError?: Function;
             onResulted?: Function;
             } ```
-        - onPermissionError function will call if `@jining/svelte-scan-qrcode` package request camera get rejected.
-        - onResulted function will call if the `@jining/svelte-scan-qrcode` package gets the scan result from QR Code.
+        - onPermissionError function will call if `@itsjining/svelte-scan-qrcode` package request camera get rejected.
+        - onResulted function will call if the `@itsjining/svelte-scan-qrcode` package gets the scan result from QR Code.
